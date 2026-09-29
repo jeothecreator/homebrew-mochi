@@ -1,7 +1,9 @@
 # Homebrew tap for Mochi 🍡
 
 ```bash
-brew install --cask jeothecreator/mochi/mochi
+brew trust --cask jeothecreator/mochi/mochi   # newer Homebrew asks you to trust third-party taps (skip if "unknown command")
+brew tap jeothecreator/mochi
+brew install --cask mochi
 ```
 
 Update: `brew upgrade --cask mochi` · Uninstall: `brew uninstall --cask mochi` (add `--zap` to also remove your pet's data).
