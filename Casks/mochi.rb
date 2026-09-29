@@ -1,6 +1,6 @@
 cask "mochi" do
-  version "1.1.0"
-  sha256 "6fbc26d9b257b21033c74d780c88bf79eec9b04b78d88e6f2292cb693aba1bf9"
+  version "1.1.1"
+  sha256 "c04ff471a9e865f7c77a92dd0ae65ee69a15e6e102e4ce2b32b36a134b32ce70"
 
   url "https://github.com/jeothecreator/mochi/releases/download/v#{version}/Mochi-#{version}.dmg"
   name "Mochi"
@@ -22,10 +22,4 @@ cask "mochi" do
     "~/Library/Application Support/Mochi",
     "~/Library/Preferences/com.mochi.desktoppet.plist",
   ]
-
-  caveats <<~EOS
-    Mochi is free and not notarized by Apple. On first launch, open
-    System Settings → Privacy & Security and click "Open Anyway" (once).
-    Mochi lives in your menu bar — hatch your egg and say hi!
-  EOS
 end
