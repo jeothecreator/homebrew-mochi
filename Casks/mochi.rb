@@ -1,6 +1,6 @@
 cask "mochi" do
-  version "1.2.0"
-  sha256 "afedbc2e96db02481c1bc5c7d967257996652c062d61797070095d9a90e8cc37"
+  version "1.3.0"
+  sha256 "830933c32adb68e3def2aab20d2ddfded492d6af441aab2337a561c7801e8a09"
 
   url "https://github.com/jeothecreator/mochi/releases/download/v#{version}/Mochi-#{version}.dmg"
   name "Mochi"
